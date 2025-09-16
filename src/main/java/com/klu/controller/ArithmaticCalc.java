@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/")
 @CrossOrigin("*")
-public class ArithmaticCalc {
+public class ArithmaticCalc  {
 	@GetMapping("add/{A}/{B}")
 	public String add(@PathVariable("A") int a,@PathVariable("B")int b)
 	{
